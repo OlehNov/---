@@ -6,7 +6,8 @@ import java.util.Objects;
 
 public class TaskStep_6_2 {
     public static void main(String[] args) {
-        booleanExpression(true, false, true, false);
+
+        System.out.println(booleanExpression(true, true, true, false));
     }
     public static Boolean booleanExpression(boolean a, boolean b, boolean c, boolean d) {
         int i = 0;
@@ -24,10 +25,9 @@ public class TaskStep_6_2 {
         }
         System.out.println(list);
         if (list.size() == 2) {
-            System.out.println("true");
+            return true;
         } else {
-            System.out.println("false");
+            return false;
         }
-        return a & b & c & d;
     }
 }

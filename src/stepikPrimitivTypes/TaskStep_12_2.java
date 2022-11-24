@@ -7,7 +7,6 @@ public class TaskStep_12_2 {
     }
     public static boolean doubleExpression(double a, double b, double c) {
         Double result = a + b - c;
-        boolean x;
         if (-0.0001 < result & result < 0.0001) {
             return true;
         } else {
@@ -15,3 +14,4 @@ public class TaskStep_12_2 {
         }
     }
 }
+////

@@ -2,7 +2,7 @@ package Hometask;
 
 import java.util.Scanner;
 
-public class Factorial_recursion {
+public class SportCenter {
     public static void main(String[] args) {
         Scanner year = new Scanner(System.in);
         System.out.println("Enter the age please: ");

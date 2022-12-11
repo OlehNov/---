@@ -8,7 +8,6 @@ public class OddNumbers {
     }
 
     public static String printOddNumbers(int[] arr) {
-        int[] mass = {};
         StringBuffer x = new StringBuffer();
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] % 2 != 0) {
